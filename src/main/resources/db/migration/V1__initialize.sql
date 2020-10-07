@@ -35,3 +35,21 @@ insert into products (title, price)
 values
 ('Bread1', 21),
 ('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
+('Bread1', 21),
+('Bread2', 22);
