@@ -15,7 +15,7 @@ class GeekMarketApplicationTests {
 	
 	@Test
 	void fail() {
-		Assert.hasText("TEST", "TEXT");
+		Assert.isTrue(false, "TEST");
 	}
 
 }
