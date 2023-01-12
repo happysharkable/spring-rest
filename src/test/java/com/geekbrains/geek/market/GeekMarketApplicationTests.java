@@ -12,5 +12,10 @@ class GeekMarketApplicationTests {
 	void contextLoads() {
 		Assert.hasText("TEST", "TEST");
 	}
+	
+	@Test
+	void fail() {
+		Assert.isTrue(false, "TEST");
+	}
 
 }
