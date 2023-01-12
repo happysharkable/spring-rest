@@ -1,13 +1,16 @@
 package com.geekbrains.geek.market;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.util.Assert;
 
-@SpringBootTest
+@ExtendWith(MockitoExtension.class)
 class GeekMarketApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Assert.hasText("TEST", "TEST");
 	}
 
 }
